@@ -2,4 +2,4 @@
 
 Calculatrice de factorielle et de la somme des n premiers nombres d'un chiffre. 
 
-Mon premier petit projet en HTML/CSS & JavaScrript !
+Ou autrement dit, mon premier petit projet en HTML/CSS & JavaScrript. :)
