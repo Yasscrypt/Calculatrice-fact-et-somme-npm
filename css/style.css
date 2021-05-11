@@ -1,0 +1,67 @@
+/* FONT FACE */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+/*GLOBAL */
+
+body {
+    background-image: url(../img/fond.png);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin: 5px 5px 50px 5px;
+    padding: 5px 30px 5px 30px;
+}
+
+header .container {
+    background-image: url(../img/animate-header.gif);
+    background-color: #EAD496;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height:350px;
+    border: 1px solid #2a3cad;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #2a3cad;
+
+}
+
+/* MAIN */
+
+main .container {
+    text-align: center;
+    height :430px;
+}
+
+main h1 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#resultat {
+    width:40%;
+    margin:0 auto;
+}
+
+.firstDiv {
+    margin-top:10px;
+}
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin : 0 auto;
+    padding: 30px;
+    background-color: #EAD496;
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
+.readmore {
+    padding : 10px 30px;
+    background-color:#cccccc;
+}
+
+.readmore a:hover {
+    width:100px;
+}

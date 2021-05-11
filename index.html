@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculatrice de factorielle et de somme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="animate__animated animate__bounceInDown">Calculez la factorielle d'un entier ou la somme de ses n premiers
+                nombres</h1>
+            <div class="animate__animated animate__lightSpeedInRight firstDiv">
+                <label for="chiffre">Chiffre voulu :</label>
+                <input type="number" id="chiffre">
+
+                <button id="addition">somme</button>
+                <button id="factorielle">factorielle</button>
+                <button id="effacer">effacer</button>
+            </div>
+            <div id="resultat" class="animate__animated animate__fadeIn"></div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a class="readmore"
+                href="https://fr.wikipedia.org/wiki/Factorielle#:~:text=En%20mathématiques%2C%20la%20factorielle%20d,inférieurs%20ou%20égaux%20à%20n." target="_blank">En
+                savoir plus sur la factrorielle <i class="fas fa-plus-circle"></i></a>
+
+            <a class="readmore" href="https://fr.wikipedia.org/wiki/Somme_(arithmétique)#Somme_des_premiers_entiers" target="_blank">En
+                savoir plus sur la somme <i class="fas fa-plus-circle"></i></a>
+        </nav>
+    </footer>
+    <script src="js/calcul.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
