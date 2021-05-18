@@ -19,7 +19,7 @@ header .container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
-    height:350px;
+    height:40vh;
     border: 1px solid #2a3cad;
     border-radius: 4px;
     box-shadow: 0px 0px 5px #2a3cad;
@@ -30,7 +30,7 @@ header .container {
 
 main .container {
     text-align: center;
-    height :350px;
+    height : 42vh;
 }
 
 main h1 {
@@ -45,23 +45,89 @@ main h1 {
 .firstDiv {
     margin-top:10px;
 }
+
+.firstDiv div {
+    display: inline-block;
+}
 /* FOOTER */
 
 footer {
-    text-align: center;
-    margin : 0 auto;
     padding: 30px;
     background-color: #EAD496;
     background-size: cover;
     color: white;
     margin: 5px;
+    height : 10vh;
 }
 
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 .readmore {
     padding : 10px 30px;
     background-color:#cccccc;
+    margin : 0 5px 0;
+    display : block;
 }
 
-.readmore a:hover {
+/* .readmore:hover {
     width:100px;
+} */
+
+/* Affichage sur Tablettes et petits écrans */
+
+@media screen and (max-width:810px) {
+    header .container {
+        height : 35vh;
+        background-size: 90%;   
+    }
+
+    footer {
+        height : 15vh;
+        padding : 10px;
+    }
+
+    footer nav {
+        height : 100px;
+        flex-direction:column;
+        align-content: space-around;
+        
+    }
+
+    .readmore  {
+        margin : 5px 0;
+        text-align: center;
+    }
 }
+
+@media screen and (max-width:700px) {
+    h1 {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:510px) {
+    header .container {
+        height : 25vh;
+        background-size: 90%;  
+    }
+
+    .firstDiv {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .divBtn button {
+        margin-top:10px;
+
+    }
+
+    footer nav div {
+        width : 80%;
+        font-size : 60%;
+    }
+}
+

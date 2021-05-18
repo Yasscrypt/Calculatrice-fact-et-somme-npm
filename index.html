@@ -22,29 +22,36 @@
     </header>
     <main>
         <div class="container">
-            <h1 class="animate__animated animate__bounceInDown">Calculez la factorielle d'un entier ou la somme de ses premiers
+            <h1 class="animate__animated animate__bounceInDown">Calculez la factorielle d'un entier ou la somme de ses
+                premiers
                 nombres</h1>
             <div class="animate__animated animate__lightSpeedInRight firstDiv">
-
-                <label for="chiffre">Chiffre voulu :</label>
-                <input type="number" id="chiffre">
-                
-                <button id="addition">somme</button>
-                <button id="factorielle">factorielle</button>
-                <button id="effacer">effacer</button>
-
+                <div class="divChiffre">
+                    <label for="chiffre">Chiffre voulu :</label>
+                    <input type="number" id="chiffre">
+                </div>
+                <div class="divBtn">
+                    <button id="addition">somme</button>
+                    <button id="factorielle">factorielle</button>
+                    <button id="effacer">effacer</button>
+                </div>
             </div>
             <div id="resultat" class="animate__animated animate__fadeIn"></div>
         </div>
     </main>
     <footer>
         <nav>
+            <div>
             <a class="readmore"
-                href="https://fr.wikipedia.org/wiki/Factorielle#:~:text=En%20mathématiques%2C%20la%20factorielle%20d,inférieurs%20ou%20égaux%20à%20n." target="_blank">En
+                href="https://fr.wikipedia.org/wiki/Factorielle#:~:text=En%20mathématiques%2C%20la%20factorielle%20d,inférieurs%20ou%20égaux%20à%20n."
+                target="_blank">En
                 savoir plus sur la factrorielle <i class="fas fa-plus-circle"></i></a>
-
-            <a class="readmore" href="https://fr.wikipedia.org/wiki/Somme_(arithmétique)#Somme_des_premiers_entiers" target="_blank">En
+            </div>
+            <div>
+            <a class="readmore" href="https://fr.wikipedia.org/wiki/Somme_(arithmétique)#Somme_des_premiers_entiers"
+                target="_blank">En
                 savoir plus sur la somme des premiers entiers <i class="fas fa-plus-circle"></i></a>
+            </div>
         </nav>
     </footer>
     <script src="js/calcul.js"></script>
