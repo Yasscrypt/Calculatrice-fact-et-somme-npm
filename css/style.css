@@ -85,6 +85,10 @@ footer nav {
         background-size: 90%;   
     }
 
+    h1 {
+        font-size: 100%;
+    }
+
     footer {
         height : 15vh;
         padding : 10px;
@@ -100,12 +104,6 @@ footer nav {
     .readmore  {
         margin : 5px 0;
         text-align: center;
-    }
-}
-
-@media screen and (max-width:700px) {
-    h1 {
-        font-size: 100%;
     }
 }
 
