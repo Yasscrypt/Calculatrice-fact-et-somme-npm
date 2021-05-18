@@ -1,4 +1,4 @@
-# calculatrice-fact-et-somme-npm
+# calculatrice-fact-et-somme-des-premiers-nombres
 
 Calculatrice de la factorielle et de la somme des n premiers nombres d'un chiffre. 
 
